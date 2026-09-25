@@ -1,4 +1,4 @@
-</> |Markdown
+</> |Marrkdown
 # PHP Programming Screenshots
 
 This folder contains screenshots demonstrating PHP programming concepts covered in the course **Web Application Development - PHP & MySQL**.
