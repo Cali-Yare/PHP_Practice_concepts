@@ -1,279 +1,293 @@
-</> |Marrkdown
-# PHP Programming Screenshots
+# Web Application Development - PHP & MySQL
 
-This folder contains screenshots demonstrating PHP programming concepts covered in the course **Web Application Development - PHP & MySQL**.
+## Course Information
+
+**Course Title:** Web Application Development - PHP & MySQL  
+**Department:** Computer Application  
+**Faculty:** Computer & Information Technology  
+**Year:** 2026  
+**Semester:** I  
+
+**Prerequisites:**
+- HTML & CSS
+- Programming Fundamentals
+- JavaScript
+
+**Instructor(s):**
+- Abdisalam Yusuf Abdi (Jarane)
+- Bashir Abdinur Ahmed
+- Yahye Ali Isse
+---
+
+# Course Description
+
+Web Application Development - PHP & MySQL introduces students to the development of dynamic, database-driven web applications using PHP programming language and MySQL database management system.
+
+The course covers server-side programming, web forms processing, database design, SQL operations, AJAX-based interaction, REST API development, authentication, security practices, MVC architecture, and Laravel framework fundamentals.
+
+Students will apply theoretical concepts through practical programming exercises and develop a complete PHP & MySQL-based web application project.
 
 ---
 
-# Week One
+# Course Objectives
 
-This folder contains PHP practice work and screenshots demonstrating the concepts practiced during Week One.
+By the end of this course, students will be able to:
 
----
-
-# 1. PHP Introduction
-
-## Screenshot Name
-
-`PHP_Introduction.png`
-
-## Description
-
-This screenshot demonstrates the introduction to PHP and the use of PHP code inside a web page.
-
-The PHP practice includes:
-
-- PHP output using `echo`.
-- PHP output using `print`.
-- PHP code written inside PHP tags.
-- Displaying output in the browser.
-
-## Screenshot
-
-![PHP Introduction](Screenshots/PHP_Introduction.png)
+- Understand web application development concepts and PHP/MySQL environments.
+- Develop dynamic and interactive web pages using PHP.
+- Work with PHP variables, data types, operators, control structures, arrays, functions, and reusable files.
+- Design and process web forms with client-side and server-side validation.
+- Create interactive applications using jQuery, AJAX, and JSON.
+- Understand relational database concepts and MySQL database design.
+- Write SQL queries including:
+- SELECT
+- INSERT
+- UPDATE
+- DELETE
+- CREATE
+- JOIN operations
+- Connect PHP applications securely with MySQL databases.
+- Develop CRUD-based applications.
+- Build REST APIs using PHP and MySQL.
+- Implement authentication, authorization, cookies, and sessions.
+- Understand MVC architecture and Laravel application structure.
+- Design and deploy complete database-driven web applications.
 
 ---
 
-# 2. Echo Statement
+# Technologies Used
 
-## Screenshot Name
+## Frontend
 
-`echo.png`
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
+- AJAX
+- JSON
 
-## Description
+## Backend
 
-This screenshot demonstrates how the `echo` statement is used to display output.
+- PHP
+- Laravel Framework
 
-Example:
+## Database
 
-```php
-<?php
+- MySQL
+- SQL
 
-echo ("Welcome to PHP & MYSQL Course");
+## Development Tools
 
-?>
-```
-
-The practice also demonstrates that `echo` can display multiple values:
-
-```php
-<?php
-
-echo "Ali", "Mohamed";
-
-?>
-```
-
-## Screenshot
-
-![Echo Statement](Screenshots/echo.png)
+- Visual Studio Code
+- XAMPP / Laragon
+- phpMyAdmin
+- Git & GitHub
 
 ---
 
-# 3. Print Statement
+# Course Modules
 
-## Screenshot Name
+## Module 1: Introduction to PHP & MySQL
+Duration: 1 Week
 
-`printExample.png`
+Topics:
+- Introduction to web applications
+- Client-server architecture
+- PHP environment setup
+- PHP syntax basics
+- Running PHP applications
+---
 
-## Description
+## Module 2: PHP Fundamentals & Control Structures
+Duration: 1 Week
 
-This screenshot demonstrates how the `print` statement is used to display text in PHP.
+Topics:
+- Variables
+- Data types
+- Operators
+- Conditional statements
+- Loops
+- Basic PHP programming
+
+---
+
+## Module 3: Arrays, Functions & Include Files
+Duration: 2 Weeks
+
+Topics:
+
+- Indexed arrays
+- Associative arrays
+- Multidimensional arrays
+- PHP functions
+- Creating reusable components
+- Include and require files
+
+---
+
+## Module 4: Advanced PHP Forms & Validation
+Duration: 2 Weeks
+
+Topics:
+
+- HTML forms with PHP
+- GET and POST methods
+- Form processing
+- Input validation
+- Error handling
+- Application workflow
+
+---
+
+## Module 5: jQuery + AJAX + Interactive PHP Applications
+Duration: 2 Weeks
+
+Topics:
+
+- jQuery fundamentals
+- AJAX requests
+- JSON data exchange
+- Dynamic page updates
+- Building interactive web applications
+
+---
+
+## Module 6: MySQL Database Design
+Duration: 2 Weeks
+
+Topics:
+
+- Database concepts
+- Relational databases
+- Database design
+- Tables and relationships
+- SQL commands
+- CRUD operations
+- Connecting PHP with MySQL
+
+---
+
+## Module 7: REST API Development with PHP & MySQL
+Duration: 2 Weeks
+
+Topics:
+
+- API concepts
+- REST architecture
+- HTTP methods
+- JSON responses
+- Creating APIs using PHP
+- Consuming APIs
+
+---
+
+## Module 8: Security, Authentication & Architecture
+Duration: 1 Week
+
+Topics:
+
+- Cookies
+- Sessions
+- Authentication
+- Authorization
+- Password security
+- Web application security
+- Performance optimization
+
+---
+
+## Module 9: MVC Architecture & Modern PHP Structure
+Duration: 1 Week
+
+Topics:
+
+- MVC concepts
+- Model
+- View
+- Controller
+- Application organization
+- Modern PHP project structure
+
+---
+
+## Module 10: Laravel Framework
+Duration: 2 Weeks
+
+Topics:
+
+- Laravel installation
+- Laravel architecture
+- Routing
+- Controllers
+- Blade templates
+- Migrations
+- Eloquent ORM
+- Building Laravel applications
+
+---
+
+# Assessment
+
+| Assessment | Weight |
+|---|---:|
+| Labs, Quizzes & Assignments | 20% |
+| Midterm Exam | 30% |
+| Final Exam | 30% |
+| Final Project | 20% |
+
+---
+
+# Final Project
+
+Students will design and develop a complete database-driven web application.
 
 Examples:
 
-```php
-<?php
+- Learning Management System
+- Hospital Management System
+- E-Commerce System
+- Inventory Management System
+- Student Management System
+- Online Booking System
 
-print "Welcome to PHP";
+Project Requirements:
 
-print ("Welcome to PHP");
-
-?>
-```
-
-Both examples display text in the browser.
-
-## Screenshot
-
-![Print Example](Screenshots/printExample.png)
-
----
-
-# 4. Constants in PHP
-
-## Description
-
-This practice demonstrates creating and using a constant in PHP.
-
-Example:
-
-```php
-<?php
-
-define("AGE", "my Awesome");
-
-echo "my Constant variable", AGE;
-
-?>
-```
-
-The `define()` function is used to create the constant, and the constant is then displayed using `echo`.
-
-## Screenshot
-
-![Constants](Screenshots/Results.png)
+- User authentication
+- Database design
+- CRUD operations
+- Form validation
+- Responsive interface
+- Security implementation
+- Documentation
 
 ---
 
-# 5. Ternary Expression
+# Learning Outcomes
 
-## Screenshot Name
+After completing this course, students can:
 
-`Treninary.png`
-
-## Description
-
-This screenshot demonstrates the use of a ternary expression with `print`.
-
-Example:
-
-```php
-<?php
-
-$x = 5;
-$y = 10;
-
-$x < $y ? print "x is less than y" : print "x is greater than y";
-
-?>
-```
-
-The condition checks whether `$x` is less than `$y` and prints the corresponding message.
-
-## Screenshot
-
-![Ternary Expression](Screenshots/Treninary.png)
+✅ Develop dynamic PHP applications  
+✅ Create and manage MySQL databases  
+✅ Write SQL queries  
+✅ Build CRUD applications  
+✅ Process secure web forms  
+✅ Develop REST APIs  
+✅ Implement authentication systems  
+✅ Apply MVC architecture  
+✅ Understand Laravel fundamentals  
+✅ Build professional database-driven applications  
 
 ---
 
-# 6. If Else Statement
+# Recommended Textbook
 
-## Screenshot Name
-
-`UsingIF_else.png`
-
-## Description
-
-This screenshot demonstrates decision making using an `if ... else` statement.
-
-Example:
-
-```php
-<?php
-
-$Age = 10;
-$grade = 10;
-
-if ($Age > 20 || $grade > 20) {
-
-    echo "that person can vote";
-
-} else {
-
-    echo "that person cant vote";
-
-}
-
-?>
-```
-
-The condition is evaluated first. If the condition is true, the first message is displayed; otherwise, the `else` statement is executed.
-
-## Screenshot
-
-![If Else Statement](Screenshots/UsingIF_else.png)
+**Title:** Learning PHP, MySQL & JavaScript  
+**Author:** Robin Nixon  
+**Publisher:** O'Reilly Media Inc  
+**Edition:** 6th Edition  
+**Year:** 2018  
+**ISBN:** 9781491978917
 
 ---
 
-# 7. Switch Statement
-
-## Screenshot Name
-
-`UsingSwithch.png`
-
-## Description
-
-This screenshot demonstrates decision making using a `switch` statement.
-
-Example:
-
-```php
-<?php
-
-$Grade = 90;
-
-switch ($Grade) {
-
-    case ($Grade >= 90):
-        echo "Excellent";
-        break;
-
-    case ($Grade >= 80):
-        echo "Very Godd";
-        break;
-
-    case ($Grade >= 50):
-        echo "minimal pass";
-        break;
-
-    default:
-        echo "not passed";
-}
-
-?>
-```
-
-The switch structure checks the grade conditions and displays the corresponding result.
-
-## Screenshot
-
-![Switch Statement](Screenshots/UsingSwithch.png)
-
----
-
-# 8. Results
-
-## Screenshot Name
-
-`Results.png`
-
-## Description
-
-This screenshot shows the output produced by the PHP practice code when it is executed.
-
-## Screenshot
-
-![Results](Screenshots/Results.png)
-
----
-
-# 9. PHP Practice File
-
-## File Name
-
-`PHP_Introduction.php`
-
-## Description
-
-The `PHP_Introduction.php` file contains the PHP practice completed for Week One, including:
-
-- `echo`
-- `print`
-- Multiple arguments with `echo`
-- Constants using `define()`
-- Ternary expression
-- `if ... else`
-- `switch`
-
-The PHP code is executed through the web server and its output is displayed in the browser.
+# Repository Structure
